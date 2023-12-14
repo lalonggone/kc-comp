@@ -1,0 +1,95 @@
+body {
+  font-family: 'Libre Baskerville', serif;
+  margin: 20px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+h2 {
+  font-size: 6vw;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin: 2px;
+}
+
+h3 {
+  padding: 20px;
+  margin: 0;
+}
+  
+.landing, form {
+  display: flex;
+  padding: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 100vh;
+  flex-direction: column;
+  padding-top: 0;
+}
+
+.landing {
+  background-color: #f4f4f4;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+
+}
+
+
+.button {
+  background: #FF4742;
+  border: 1px solid #FF4742;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  margin: 5px;
+}
+
+.button:hover,
+.button:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #FF4742;
+}
+
+input[type=text] {
+  font-family: 'Shadows Into Light Two', sans-serif;
+  width: 20%;
+  padding: 12px 20px;
+  border: none;
+  border-bottom: 2px solid #41403e;
+  border-bottom-right-radius: 225px 15px;
+  border-top-right-radius: 15px 225px;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+  outline: none;
+  width: 35%;
+}
+
+textarea {
+  width: 35%;
+  font-family: 'Shadows Into Light Two', sans-serif;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, .2) 10px 20px 25px -18px;
+  transition: all 235ms ease-in-out;
+  border-bottom-left-radius: 15px 255px;
+  border-bottom-right-radius: 225px 15px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  margin-top: 7px;
+  border: 1.5px solid #575653;
+  resize: none;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kane Creek Development Petition - Non Resident</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Work+Sans:700" rel="stylesheet">
+</head>
+<body>
+  <button type="button" class="button" onclick="goBack()">Go Back</button>
+  <h2>Kane Creek Development Petition</h2> 
+  <h2>Non Resident</h2>
+  <form id="petitionForm">
+    <label for="nonResidentName">Name</label>
+    <input type="text" id="nonResidentName" required><br>
+
+    <label for="nonResidentZip">Zip Code</label>
+    <input type="text" id="nonResidentZip" required><br>
+
+    <label for="nonResidentComment">Optional Comment</label>
+    <textarea id="nonResidentComment" required></textarea><br>
+
+    <button type="button" class="button" onclick="submitForm()">Submit</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
