@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stop Development on Kane Creek</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Afacad&family=Libre+Baskerville&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+  <h1>Stop Development <br>on Kane Creek</h1> 
+  <button type="button" class="back-button button" onclick="goBack()">Back</button>
+  <div class="form-container">
+    <form id="petitionForm">
+      <label for="nonResidentName">Non Resident Name</label>
+      <input type="text" id="nonResidentName" required><br>
+
+      <label for="nonResidentZip">Zip Code</label>
+      <input type="text" id="nonResidentZip" required><br>
+
+      <label for="nonResidentPhone">Phone</label>
+      <input type="text" id="nonResidentPhone"><br>
+
+      <label for="nonResidentComment">Optional Comment</label>
+      <textarea id="nonResidentComment" required></textarea><br>
+
+      <button type="button" class="submit-button button" onclick="submitForm()">Submit</button>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>  
