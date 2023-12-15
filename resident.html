@@ -11,23 +11,27 @@
 </head>
 <body>
   <h1>Stop Development <br>on Kane Creek</h1> 
-  <button type="button" class="button" onclick="goBack()">Back</button>
-  <form id="petitionForm">
-    <label for="residentName">Name</label>
-    <input type="text" id="residentName" required><br>
+    <button type="button" class="back-button button" onclick="goBack()">Back</button>
+  <div class="form-container">
+    <form id="petitionForm">
+    <label for="resident-name">Resident Name</label>
+    <input type="text" id="resident-name" required><br>
+    
+        <label for="resident-address">Grand County Address</label>
+        <input type="text" id="resident-address" required><br>
+    
+    <label for="resident-phone">Phone</label>
+    <input type="text" id="resident-phone"><br>
 
-    <label for="residentAddress">Address</label>
-    <input type="text" id="residentAddress" required><br>
+    <!-- <label for="residentTime">How long have you been a resident?</label>
+    <input type="text" id="residentTime"><br> -->
 
-    <label for="residentTime">How long have you been a resident?</label>
-    <input type="text" id="residentTime"><br>
+    <label for="resident-comment">Comments</label>
+    <textarea id="resident-comment" placeholder=""></textarea><br>
 
-    <label for="residentComment">Optional Comment</label>
-    <textarea id="residentComment" placeholder=""></textarea><br>
-
-    <button class="button" type="button" onclick="submitForm()">Submit</button>
+    <button class="submit-button button" type="button" onclick="submitForm()">Submit</button>
   </form>
-
+</div>
   <script src="script.js"></script>
 </body>
 </html>

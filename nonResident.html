@@ -11,20 +11,24 @@
 </head>
 <body>
   <h1>Stop Development <br>on Kane Creek</h1> 
-  <button type="button" class="button" onclick="goBack()">Back</button>
-  <form id="petitionForm">
-    <label for="nonResidentName">Name</label>
-    <input type="text" id="nonResidentName" required><br>
+  <button type="button" class="back-button button" onclick="goBack()">Back</button>
+  <div class="form-container">
+    <form id="petitionForm">
+      <label for="nonResidentName">Non Resident Name</label>
+      <input type="text" id="nonResidentName" required><br>
 
-    <label for="nonResidentZip">Zip Code</label>
-    <input type="text" id="nonResidentZip" required><br>
+      <label for="nonResidentZip">Zip Code</label>
+      <input type="text" id="nonResidentZip" required><br>
 
-    <label for="nonResidentComment">Optional Comment</label>
-    <textarea id="nonResidentComment" required></textarea><br>
+      <label for="nonResidentPhone">Phone</label>
+      <input type="text" id="nonResidentPhone"><br>
 
-    <button type="button" class="button" onclick="submitForm()">Submit</button>
-  </form>
+      <label for="nonResidentComment">Optional Comment</label>
+      <textarea id="nonResidentComment" required></textarea><br>
 
+      <button type="button" class="submit-button button" onclick="submitForm()">Submit</button>
+    </form>
+  </div>
   <script src="script.js"></script>
 </body>
 </html>  
