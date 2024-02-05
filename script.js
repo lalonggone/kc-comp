@@ -1,5 +1,5 @@
 function redirectToForm(type) {
-    const url = type === 'resident' ? 'resident.html' : 'nonresident.html';
+    const url = type === 'resident' ? 'resident.html' : 'nonResident.html';
     window.location.href = url;
   }
 
@@ -14,7 +14,6 @@ function submitForm() {
   const zip = document.getElementById("nonResidentZip") || null;
   const comment = document.getElementById("residentComment") || document.getElementById("nonResidentComment");
 
-  // Log form data to console
   console.log("Name:", name.value.trim());
   if (address) console.log("Address:", address.value.trim());
   if (residency) console.log("Residency:", residency.value.trim());
