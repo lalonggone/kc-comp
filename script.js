@@ -19,6 +19,6 @@ function submitForm() {
   if (residency) console.log("Residency:", residency.value.trim());
   if (zip) console.log('Zip:', zip.value.trim());
   console.log("Comment:", comment.value.trim());
-  
-
 }
+
+console.log('hello world')
