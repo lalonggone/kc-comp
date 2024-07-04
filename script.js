@@ -8,11 +8,7 @@ function goBack() {
 }
   
 function submitForm() {
-  const name = document.getElementById("residentName") || document.getElementById("nonResidentName");
-  const address = document.getElementById("residentAddress") || null;
-  const residency = document.getElementById("residentTime") || null;
-  const zip = document.getElementById("nonResidentZip") || null;
-  const comment = document.getElementById("residentComment") || document.getElementById("nonResidentComment");
+  console.log('Do something cool!!!')
 
   console.log("Name:", name.value.trim());
   if (address) console.log("Address:", address.value.trim());
