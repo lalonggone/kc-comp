@@ -1,17 +1,44 @@
 # Kane Creek Development Petition
 
-### About
-The goal of the original project was to practice HTML and CSS skills by building out a static comp (basically build something using Vanilla JS based on a static photo). I was able to persuade my instructors into letting me go off the rails and create this petition form instead. Unfortuneately, it is not functional, that was out of the scope of this assignment. 
+## About
 
-The idea behind this survey was to provide a platform for the community to express concerns about a proposed development in the Colorado River corridor near Moab, Utah. It would be used as a tool to gather contact information for organizing efforts and to provide quantifiable evidence of overwhelming public opposition. Much of the design inspiration came from the Bernie Sanders' website. It is not a true static comp, but I certainly did put my CSS and HTML skills to the test! Mission success.
+This project was originally an assignment to practice HTML and CSS skills by building a static comp. However, I chose to deviate from the assignment to create a petition form addressing the proposed development in the Colorado River corridor near Moab, Utah. While the form itself is not functional due to the scope limitations of the assignment, it serves as a concept for gathering community feedback and organizing efforts against the development.
 
-### Demo
+## Purpose
+
+The goal of this survey was to provide a platform for the community to express concerns about the proposed development on Kane Creek. It would gather contact information for organizing efforts and provide quantifiable evidence of public opposition (there is a LOT). The design was inspired by the Bernie Sanders' campaign website.
+
+Due to time constraints and other risks, I used Google Forms to create and share a functional petition. The responses from the Google survey were mapped and filtered through an Excel file to categorize different types of responses and contact information. Shoutout array protoype methods!
 
 
-https://github.com/lalonggone/kc-comp/assets/137913045/e10323e7-f1ab-463d-91b3-d14b68294cd5
 
+## Demo
 
+*Note: The form is not functional.*
 
-My goal with the actual petition was to get something legit up and running in a short period of time, so I decided to use Google Forms instead of trying to make this form fully functional. I ended up mapping and filtering through responses on the .xlsx file from the Google survey to categorize different types of responses and contact information. Yay for array prototype methods!
+https://github.com/lalonggone/kc-comp/assets/137913045/6d3f23dd-48aa-451c-9ce7-2a3e898ba2ab
 
-I enjoyed working on this a lot and am very thankful my instructors gave me permission to execute this passion project. 🧡
+## Technologies Used
+
+- HTML
+- CSS
+- JavaScript (Vanilla JS for form handling and redirection)
+
+## Features
+
+- Two separate forms for residents and non-residents.
+- Simple navigation between forms.
+- Basic validation for form fields.
+- Aestheticly pleasing UI.
+
+## Code Structure
+
+- `index.html`: The homepage asking about residency.
+- `resident.html`: Form for Grand County residents.
+- `nonResident.html`: Form for non-residents.
+- `styles.css`: Contains all the styling for the pages.
+- `script.js`: Contains the JavaScript functions and logic for form handling and navigation.
+
+I am grateful to my instructors for permitting me to pursue this passion project!!
+
+For more info on the Kane Creek Development, visit kanecreekwatch.org
